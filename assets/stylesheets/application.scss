@@ -1,16 +1,29 @@
-$favorite-color: #D1D7DC;
-
 body {
-  background-color: $favorite-color;
-  font-family: Helvetica;
-  font-size: 40px;
+  color: white;
+  background-color: black;
 }
+
 .app {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-.flex-container {
   display: flex;
-  justify-content: center
+  .cities {
+    width: 30%;
+  }
+  .active-city {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    h3 {
+      margin-top: 0;
+    }
+  }
 }
 
+.list-group-item {
+  background-color: transparent;
+  cursor: pointer;
+}
