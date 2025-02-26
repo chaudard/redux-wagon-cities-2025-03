@@ -21,6 +21,8 @@
     "node-sass": "^9.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
     "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
@@ -37,5 +39,5 @@
     "start": "webpack-dev-server --mode development",
     "lint": "eslint './src/**/*.js*'",
     "build": "webpack --mode production"
-  }  
+  }
 }
