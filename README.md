@@ -3,6 +3,7 @@ React-Redux project using webpack
 
 - node : 20.16.0
 - react: ^19.0.0
+- redux: ^5.0.1
 - webpack: ^5.97.1
 
 
